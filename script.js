@@ -130,6 +130,6 @@ console.log(result);
 */
 
 
-// 1. [mangoe, orange, apple] add the word S to end of each string.
+// 1. [mangoe, orange, apple] add the word S to end of each string in an array.
 // 2. [10,11,12,89,35,156,199,25,32,87] Find the numbers which are greater than 80 from given array.
-// 3. [10,12,15,16,8,11] Find the largest/ greates number in an array. 
+// 3. [10,12,15,16,8,11] Find the largest/ greatest number in an array. 
