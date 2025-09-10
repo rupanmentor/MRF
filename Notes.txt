@@ -131,3 +131,96 @@ const result = a.reduce((sum,i)=>{
 console.log(result);
 
 --------------------------------
+1.Split:- 
+ => It splits the string into individual character array.
+ => It depends on Input
+ => It only works for string.
+ syntax:- 
+ split("")
+  
+example:-
+ var a = "abcd efgh".split(" ")
+ var b = a[0].split("")
+ var c = a[1].split("")
+ console.log(b)
+ console.log(c)
+-------------------------------
+ var a = "good".split("")
+ console.log(a);
+----------------------------------
+ var a = "thank you".split(" ")
+ var b = a[0].split("")
+ var c = a[1].split("")
+ console.log(b)
+ console.log(c)
+--------------------------------------
+var a = "iam fine".split(" ")
+var b = a[0].split("")
+ var c = a[1].split("")
+ console.log(b)
+ console.log(c)
+--------------------------------------------
+ var a = "hi hello how are you".split(" ")
+ var b = a[0].split("")
+ var c = a[1].split("")
+ var d = a[2].split("")
+ var e = a[3].split("")
+var f = a[4].split("")
+console.log(b)
+ console.log(c)
+ console.log(d)
+ console.log(e)
+console.log(f)
+----------------------------------------------
+2.Join:-
+=> It joins the individual character array 
+=> It depends on Output
+syntax:-
+join("")
+
+Example:-
+var a = "good".split("")
+console.log(a.join(" "));
+----------------------------------------------------------
+Input:- 
+"guvi"
+Ouput:-
+g u v i
+
+var a = "guvi".split("")
+console.log(a.join(" "))
+-------------------------------------------------------------
+Input:-
+"guvi"
+output:-
+g*u*v*i
+
+var a = "guvi".split("")
+console.log(a.join("*"))
+----------------------------------------------------------------
+Input:-
+"guvigeek"
+Output:-
+g u v i g e e k
+
+var a = "guvigeek".split("")
+console.log(a.join(" "))
+------------------------------------------------------------------
+Input:-
+"guvigeek"
+Output:-
+g
+u
+v
+i
+g
+e
+e
+k
+
+var a = "guvigeek".split("")
+for(var i=0;i<a.length;i++)
+{
+  console.log(a[i])
+}
+-----------------------------------------------------------------
