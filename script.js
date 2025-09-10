@@ -1,5 +1,5 @@
 /*
- Map
+ Map :- 
  syntax :-  arrayname.map(function)
 
  Example without map : multiply the given array by 2
@@ -60,6 +60,72 @@ Arrow function method 5:-
 const arr5 = [12,13,14,15]
 const result5 = arr5.map((ele)=>ele*2)
 console.log(result5);
+
+*/
+
+/*
+
+Filter :
+
+syntax :-  arrayname.filter(function)
+
+Example without filter : print the even numbers in an array
+
+steps:- 
+1. for loop
+2. if condition for even number
+3. create a new array and push to it
+4. print new array
+
+
+const arr = [12,13,14,15]
+const result = [];
+for(let i=0;i<arr.length;i++){
+    if(arr[i]%2===0){
+           result.push(arr[i]);
+    }
+}
+console.log(result);
+
+
+ Example with filter: print the even numbers in an array
+
+const arr = [12,13,14,15]
+const result = arr.filter((ele)=>ele%2===0)
+console.log(result);
+
+*/
+
+/*
+Reduce
+syntax :- 
+
+arrayname.reduce((accumulator,currentValue)=>{
+    
+    block of code
+    
+    },acc)
+
+
+Example without reduce : sum of an array
+
+const arr = [1,2,3,4,5];  //15
+let sum =0;
+for(let i=0;i<arr.length;i++){
+    sum = sum+arr[i]
+}
+console.log(sum);
+
+
+
+ Example with reduce : sum of an array
+
+const arr = [2,2,3,4,5]
+const result = arr.reduce((sum,i)=>{
+     return sum+i
+
+},0)
+console.log(result);
 
 */
 
